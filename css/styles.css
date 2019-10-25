@@ -1,0 +1,140 @@
+.nav-bar {
+    background-color: blue;
+    height: 80px;
+    width: 100%;
+    color: white;
+    margin-top: 10px;
+    position: fixed;
+    top: 0;
+    z-index: 2;
+}
+
+.logo {
+    height: 80px;
+}
+
+.nav-list {
+    float: right;
+    margin-right: 20px;
+    margin-top: 50px;
+    text-align: center;
+}
+.nav-list a {
+    text-decoration: none;
+    color: yellow;
+}
+.nav-list a :hover {
+    color: white;
+    font-size: 30px;
+}
+
+.list-item {
+    border: 3px dashed white;
+    text-align: center;
+    margin-right: 25px;
+    display: inline-block;
+    height: 25px;
+    width: 70px;
+    background-color: yellow;
+    color: black;
+}
+.list-item:hover {
+    background-color: #6c84a0;
+    color: white;
+    width: 100px;
+}
+
+.main {
+    height: 700px;
+    width: 100%;
+    margin-top: 80px;
+    background-image: url(../img/Titanfall-logo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.main-img {
+    background-image: url(../img/Titanfall-logo.png);
+    background-repeat: no-repeat;
+}
+
+/*************about style css*************/
+
+.container {
+    height: 700px;
+    width: 100%;
+    margin-top: 200px;
+}
+
+.container-box {
+    height: 650;
+    width: 30%;
+    border: 2px solid rgba(37, 71, 166);
+    float: left;
+    margin-left: 20px;
+}
+
+.container-box img {
+    height: 300px;
+    width: 380px;
+}
+
+.container-box p {
+    padding: 25px;
+}
+
+.about-header {
+    background-color: yellow;
+    color: midnightblue;
+    position: absolute;
+    top: 150px;
+}
+
+.about-header h2 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 700;
+    text-align: center;
+}
+
+.container-box p {
+    padding: 25px;
+}
+
+
+
+
+
+/**************** Contact Styles *********/
+
+
+
+.contact-section {
+    height: 700px;
+    width: 100%;
+    background-color: rgba(37, 71, 166, .5);
+    position: relative;
+    margin-top: 200px;
+}
+
+.contact-box {
+    height: 600px;
+    width: 45%;
+    border: 3px solid red;
+    position: absolute;
+
+
+}
+
+.map {
+    text-align: center
+}
+
+.form {
+    right: 50px;
+}
+
+.contact-header h2 {
+    font-family: "permanent Marker", cursive;
+    font-weight: 600;
+    text-align: center;
+    background-color: yellow;
+}
